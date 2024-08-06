@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()==R.id.menu1){
+        if (item.getItemId()==R.id.t3){
             startActivity(new Intent(this, menu1.class));
         }
         else if (item.getItemId()==R.id.menu2) {
@@ -51,5 +51,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         return true;
+    }
+
+    public void pindah(View view) {
+        Intent intent = new Intent(MainActivity.this, menu3.class);
+        startActivity(intent);
     }
 }

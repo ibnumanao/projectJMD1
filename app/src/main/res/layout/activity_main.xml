@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
         android:text="OK"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="456dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="332dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,5 +23,30 @@
         app:srcCompat="@drawable/ic_launcher_foreground"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="104dp" />
+
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Message"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Setting"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Help"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="561dp"
+        android:onClick="pindah"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
