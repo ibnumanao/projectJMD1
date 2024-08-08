@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MContact">
+
+    <TextView
+        android:id="@+id/kontak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KONTAK"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/isi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor HP : 081376510031"
+        android:layout_below="@id/kontak"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/isi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : email@email.com"
+        android:textSize="20sp"
+        android:layout_below="@id/isi1"
+        />
+    <TextView
+        android:id="@+id/isi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamar : Jl. Yg. Tidak Diketahui"
+        android:textSize="20sp"
+        android:layout_below="@id/isi2"
+        />
+</RelativeLayout>

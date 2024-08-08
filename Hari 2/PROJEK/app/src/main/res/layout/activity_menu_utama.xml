@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama">
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY APLICATION"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+    <Button
+        android:id="@+id/btcatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan Harian"
+        android:textAlignment="center"
+        android:layout_below="@+id/judul"
+        android:onClick="tcatatan"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btkalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:textAlignment="center"
+        android:layout_below="@+id/btcatatan"
+        android:onClick="tkalkulator"
+        />
+    <Button
+        android:id="@+id/btgaleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeri"
+        android:textAlignment="center"
+        android:layout_below="@+id/btkalkulator"
+        android:onClick="tgaleri"
+        />
+
+</RelativeLayout>

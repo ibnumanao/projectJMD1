@@ -1,0 +1,7 @@
+Project Hari ke 2
+-splash screen
+- login
+	- register
+-menu Utama
+	-menu bar
+	- kalkulator
